@@ -6,7 +6,7 @@ def solution(queue1, queue2):
 
     left_val = sum(queue1)
     right_val = sum(queue2)
-    while range(len(queue1)):
+    for x in range(len(queue1) *3):
         if left_val > right_val:
             left_val -= queue1[0]
             right_val += queue1[0]
@@ -23,4 +23,4 @@ def solution(queue1, queue2):
     return -1
 
 
-solution([3,2,7,2],[4,6,5,1])
+solution([1,1],[1,2])
