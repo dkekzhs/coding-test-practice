@@ -1,10 +1,6 @@
+import math
 def solution(w,h):
-    answer = 0
-    z = ""
-    for a in range(h):    
-        z += ([i for i in range(1,w+1)])
-    print(z)
-
+    answer = (w*h) - (w+h - math.gcd(w,h))
     return answer
 
 solution(8,12)
