@@ -1,3 +1,4 @@
+#효율성 있게 짜려면 deque 이용
 def solution(cacheSize, cities):
     answer = 0
     cnt = 0 
