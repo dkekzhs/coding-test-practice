@@ -22,4 +22,3 @@ def solution(cookie):
                 leftSum += cookie[left]
     return answer
 
-solution([1,1,2,3])
