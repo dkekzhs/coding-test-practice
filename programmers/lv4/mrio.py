@@ -1,10 +1,6 @@
 def solution(n, start, end, roads, traps):
-    answer = 0 
-    
-            
-    print(answer)
 
-    return answer
+    return mincost
 
 #roads 첫번째는 현재 노드의 번호 두번째는 연결된 노드 3번째는 걸리는 시간
 
