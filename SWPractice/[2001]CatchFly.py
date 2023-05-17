@@ -19,5 +19,5 @@ for test_case in range(1, T + 1):
     for i in range(young):
         for j in range(young):
             answerList.append(SumData(i,j,M,FlyMap))
-print("#"+str(test_case)+ " " + str(max(answerList)))
+    print("#"+str(test_case)+ " " + str(max(answerList)))
         
