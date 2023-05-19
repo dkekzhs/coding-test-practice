@@ -8,3 +8,6 @@
 
 ## study 
 이것이 코딩 테스트이다. 코드 정리
+
+## SWPractice
+SW Expert Academy 해결한 코드
